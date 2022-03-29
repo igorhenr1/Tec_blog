@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+#cabecalho{
+    background-color: rgb(0, 76, 218);
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu{
+    padding: 10px ;
+}
+
+
+#logo{
+    color: black;
+
+}
+.logo-1{
+    color: cornsilk;
+}
+h1{
+    font-size: 2.5em;
+}
+h2{
+    color:rgb(0, 76, 218) ;   
+}
+h3{
+    color: white;
+    background:rgb(0, 76, 218) ;
+    padding: 5px;
+}
+img{
+    padding: 15px 0 0 30px;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#menu a:link, #menu a:visited{
+    color: #fff;
+}
+#menu a:hover{
+    color: rgb(0, 76, 218);
+    background: #fff;
+    border-radius: 20px;
+}
+.saibamais{
+    font-size: 16px;
+    color: rgb(0, 76, 218);
+    font-weight: bold;
+    margin: 10px;
+
+
+
+}
+.saibamais:hover{
+    text-decoration: underline;
+    
+}
+
+#conteudo{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.postagem{
+    width: 700px;
+    float: left;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 4px 5px 4px 0px #00000040;
+    
+}
+.postagem2{
+    width: 700px;
+    float: left;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 4px 5px 4px 0px #00000040;
+    
+    
+}
+
+.subtitulo{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+
+
+#Lateral{
+    width: 260px;
+    float: right; 
+    margin: 10px 0 0 20px;   
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
